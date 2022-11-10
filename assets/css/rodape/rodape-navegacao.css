@@ -1,0 +1,13 @@
+.rodape__navegacao {
+    color: var(--branco);
+    text-align: center;
+    line-height: 3;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__navegacao {
+        text-align: left;
+
+        min-width: 600px;
+    }
+}

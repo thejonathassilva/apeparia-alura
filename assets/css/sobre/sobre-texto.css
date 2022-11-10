@@ -1,0 +1,17 @@
+.sobre__texto {
+    line-height: normal;
+
+    margin-bottom: 1rem;
+}
+
+.sobre__texto--destaque {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__texto--divisao {
+        border-bottom: 1px solid var(--cinza-medio);
+        padding-bottom: 1.5rem;
+    }
+}

@@ -1,0 +1,15 @@
+.chamada__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada__titulo {
+        font-size: 3.25rem;  
+        margin-bottom: 2rem;     
+    }
+}

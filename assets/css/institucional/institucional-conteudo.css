@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px) {
+    .institucional__conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        text-align: left;
+    }
+}
